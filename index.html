@@ -5,9 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>to-do-list</title>
     <link rel="stylesheet" href="./css/todo.css">
-    <link rel="stylesheet" href="./js/todo.js">
 </head>
 <body>
-    
+    <h1>TO-DO List</h1>
+    <div class="box_todo">
+        <button class="btn_main" onclick="all()">전체</button>
+        <button class="btn_main" onclick="checked()">완료</button>
+        <button class="btn_main" onclick="yet()">미완료</button>
+        <div class="box_btn_plus">
+            <input placeholder="할 일을 작성해주세요." class="input">
+            <select id="option">
+                <option value="1">낮음</option>
+                <option value="2">보통</option>
+                <option value="3">높음</option>
+                <option value="4">아주 높음</option>
+            </select>
+            <button class="btn_plus" onclick="plus()">추가</button>
+        </div>
+        <div class="box_list">
+        </div>
+    </div>
+    <script src="./js/todo.js"></script>
 </body>
 </html>
