@@ -17,6 +17,7 @@
     margin: 15px;
     background-color: #fff;
     border: 1px solid #000;
+    cursor: pointer;
 }
 .btn_main:hover {
     background-color: darkseagreen;
@@ -30,6 +31,7 @@
 }
 #option {
     height: 25px;
+    cursor: pointer;
 }
 .btn_plus {
     width: 80px;
@@ -37,4 +39,5 @@
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 3px;
+    cursor: pointer;
 }
